@@ -1,18 +1,20 @@
 # MetricTWaveNet
 
-# Preprocessing: Waveform to Spectrogram
+**MetricTWaveNet** is a comprehensive framework for T-wave seismic event classification. It includes data preprocessing, feature-based machine learning, and deep metric learning pipelines for detecting and classifying oceanic T-phases from seismic waveform data.
 
-This module prepares seismic waveform data for classification by:
+## 🔍 Project Overview
 
-1. Extracting fixed-length segments around known event times
-2. Applying bandpass filtering and amplitude normalization
-3. Generating time-frequency spectrograms (via STFT)
+T-waves are long-range oceanic acoustic signals converted from seismic waves. This project tackles the challenge of automatic T-wave classification, particularly distinguishing:
+- No T-Phase
+- Single T-Phase
+- Multiple T-Phase
 
----
+We compare the performance of:
+1. **Scattering Transform + SVM** (DST baseline)
+2. **CNN-based classifier**
+3. **MetricTWaveNet** (deep metric learning with triplet loss)
 
-## 🔧 Scripts
 
-- `data_preprocessing.py`: Reads `.MSEED` + `.xlsx` and trims waveforms.
-- `spectrogram_generation.py`: Generates 3-channel spectrograms and saves them as `.npy`.
+
 
 
