@@ -16,7 +16,7 @@ warnings.filterwarnings('ignore')
 
 # Configuration
 DATA_BASE = "path/to/processed/data"  # Path to preprocessed MSEED files
-CLASSES = ['Single T-Phase', 'Multiple T-Phase', 'No T-Phase']
+CLASSES = ['No T-Phase','Single T-Phase', 'Multiple T-Phase']
 OUTPUT_DIR = "path/to/scattering/features"  # Output directory for features
 BEST_J = 8  # Scattering transform parameter
 BEST_Q = 12  # Scattering transform parameter
