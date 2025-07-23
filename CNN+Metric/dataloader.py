@@ -42,7 +42,7 @@ class TSpectrogramDataset(Dataset):
 
         # Set default class names if not provided
         if class_names is None:
-            self.class_names = ['Single T-Phase', 'Multiple T-Phase', 'No T-Phase']
+            self.class_names = ['No T-Phase','Single T-Phase', 'Multiple T-Phase']
         else:
             self.class_names = class_names
 
