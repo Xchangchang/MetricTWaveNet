@@ -9,7 +9,7 @@ and training hyperparameters.
 # Data configuration
 DATA_CONFIG = {
     'data_root': "path/to/spectrogram/data",  # Path to spectrogram data
-    'class_names': ['Single T-Phase', 'Multiple T-Phase', 'No T-Phase'],
+    'class_names':['No T-Phase','Single T-Phase', 'Multiple T-Phase']
 }
 
 # Model configuration
