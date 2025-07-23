@@ -23,7 +23,7 @@ SPECTROGRAM_BASE = "./data/spectrogram"
 
 # ======== DATASET LABELS ========
 # Categories used for labeling the samples
-CLASS_NAMES = ['Single T-Phase', 'Multiple T-Phase', 'No T-Phase']
+CLASS_NAMES = ['No T-Phase','Single T-Phase', 'Multiple T-Phase']
 
 
 # ======== WAVEFORM PROCESSING PARAMETERS ========
