@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 # Configuration
 DATA_DIR = "path/to/scattering/features"  # Path to scattering features
 OUTPUT_BASE = "path/to/svm/results"  # SVM results output directory
-CLASSES = ['Single T-Phase', 'Multiple T-Phase', 'No T-Phase']
+CLASSES =['No T-Phase','Single T-Phase', 'Multiple T-Phase']
 SEEDS = [42, 123, 456]  # Random seeds for reproducibility
 
 def run_experiment(seed, features, labels):
